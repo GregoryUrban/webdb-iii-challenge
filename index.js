@@ -9,6 +9,7 @@ const knexConfig = {
     filename: './data/lambda.db3',
   },
   useNullAsDefault: true, // needed for sqlite
+  debug: true
 };
 const db = knex(knexConfig);
 
