@@ -1,0 +1,22 @@
+{
+  "name": "webdb-iii-challenge",
+  "version": "1",
+  "description": "Project for Web DB III Module",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js"
+  },
+  "repository": "https://github.com/GregoryUrban/webdb-iii-challenge.git",
+  "author": "Lambda School",
+  "license": "true",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "knex": "^0.17.0",
+    "sqlite3": "^4.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
